@@ -29,5 +29,6 @@ else{
             this.classList.toggle('completed');
         }
     }
+    document.querySelector("#newtask input").value = "";
 
 }
